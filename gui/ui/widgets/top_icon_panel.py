@@ -14,17 +14,6 @@ class IconButton(QtWidgets.QToolButton):
         self.setIconSize(QtCore.QSize(36, 36))
         self.setFixedSize(90, 70)
 
-        self.setStyleSheet("""
-            QToolButton {
-                border: none;
-                background: transparent;
-                font-weight: bold;
-            }
-            QToolButton:hover {
-                background: #e3f2fd;
-            }
-        """)
-
 
 class TopIconPanel(QtWidgets.QFrame):
     sig_auto_test = QtCore.pyqtSignal()
