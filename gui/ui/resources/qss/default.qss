@@ -1,0 +1,83 @@
+/* ========= 全局 ========= */
+QWidget {
+    background-color: #d6d6d6;      /* LabVIEW 灰 */
+    font-family: "Segoe UI";
+    font-size: 10pt;
+}
+
+/* ========= 面板 ========= */
+QFrame {
+    background-color: #e6e6e6;
+    border: 1px solid #9e9e9e;
+}
+
+/* ========= GroupBox ========= */
+QGroupBox {
+    border: 1px solid #7f7f7f;
+    border-radius: 3px;
+    margin-top: 14px;
+    background-color: #efefef;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 8px;
+    top: -10px;
+    padding: 0 4px;
+    background-color: #d6d6d6;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* ========= 按钮 ========= */
+QPushButton {
+    background-color: #c0c0c0;
+    border: 1px solid #7f7f7f;
+    padding: 6px;
+    min-height: 24px;
+}
+
+QPushButton:hover {
+    background-color: #d0d0d0;
+}
+
+QPushButton:pressed {
+    background-color: #a0a0a0;
+}
+
+/* Start / Stop 特化 */
+QPushButton#btn_start {
+    background-color: #9fd39f;
+    border: 1px solid #3a7f3a;
+}
+
+QPushButton#btn_stop {
+    background-color: #e89a9a;
+    border: 1px solid #8b3a3a;
+}
+
+/* ========= 文本框 / 日志 ========= */
+QTextEdit, QLineEdit {
+    background-color: #ffffff;
+    border: 1px solid #7f7f7f;
+}
+
+/* ========= 数值显示（LabVIEW 黄） ========= */
+QLabel[value="true"] {
+    background-color: #ffe066;
+    border: 1px inset #9e8c3a;
+    padding: 4px;
+    font-family: "Consolas";
+    font-size: 10pt;
+}
+
+/* ========= ProgressBar ========= */
+QProgressBar {
+    border: 1px solid #7f7f7f;
+    background: #ffffff;
+    text-align: center;
+}
+
+QProgressBar::chunk {
+    background-color: #6aa84f;
+}
