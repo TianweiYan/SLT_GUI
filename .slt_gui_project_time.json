@@ -1,0 +1,26 @@
+{
+  "project_name": "SLT_GUI",
+  "total_hours": 0,
+  "total_minutes": 0,
+  "is_running": false,
+  "start_time": 1766506206.216701,
+  "start_datetime": "2025-12-24 00:10:06",
+  "daily_records": {
+    "2025-12-24": {
+      "date": "2025-12-24",
+      "hours": 0,
+      "minutes": 0,
+      "sessions": [
+        {
+          "start_time": "2025-12-24 00:10:06",
+          "end_time": "2025-12-24 00:10:34",
+          "duration": "0:00:28",
+          "hours": 0,
+          "minutes": 0
+        }
+      ]
+    }
+  },
+  "end_time": "2025-12-24 00:10:34",
+  "last_session_duration": "0:00:28"
+}
