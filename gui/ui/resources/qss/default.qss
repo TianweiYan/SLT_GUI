@@ -22,14 +22,15 @@ QFrame {
 QGroupBox {
     border: 1px solid #b0b0b0;
     border-radius: 6px;
-    margin-top: 18px;
+    margin-top: 20px;
     background-color: #ffffff;
 }
 
 QGroupBox::title {
-    subcontrol-origin: margin;
+    subcontrol-origin: border;
+    subcontrol-position: top left;
     left: 12px;
-    top: -12px;
+    top: -10px;
     padding: 4px 12px;
     background-color: #4a89dc;
     color: #ffffff;
