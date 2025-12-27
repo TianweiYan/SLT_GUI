@@ -1,0 +1,23 @@
+commands:
+  - description: "激活测试模式"
+    hex_data: "AA 55 55 AA 88 88 00 10 00 00 00 00 CF 10 00 01 00 00 0D EE"
+  - description: "设置测试参数1"
+    hex_data: "AA 55 55 AA 88 88 00 10 00 00 00 00 CF 10 00 02 00 00 0D EE"
+  - description: "设置测试参数2"
+    hex_data: "AA 55 55 AA 88 88 00 10 00 00 00 00 CF 10 00 03 00 00 0D EE"
+  - description: "开始测试"
+    hex_data: "AA 55 55 AA 88 88 00 10 00 00 00 00 CF 10 00 04 00 00 0D EE"
+  - description: "结束测试"
+    hex_data: "AA 55 55 AA 88 88 00 10 00 00 00 00 CF 10 00 05 00 00 0D EE"
+
+response_frames:
+  - description: "激活测试模式响应"
+    hex_data: "AA 55 55 AA 88 88 00 10 00 00 00 00 CF 10 00 01 00 00 0D EE"
+  - description: "设置测试参数1响应"
+    hex_data: "AA 55 55 AA 88 88 00 10 00 00 00 00 CF 10 00 02 00 00 0D EE"
+  - description: "设置测试参数2响应"
+    hex_data: "AA 55 55 AA 88 88 00 10 00 00 00 00 CF 10 00 03 00 00 0D EE"
+  - description: "开始测试响应"
+    hex_data: "AA 55 55 AA 88 88 00 10 00 00 00 00 CF 10 00 04 00 00 0D EE"
+  - description: "结束测试响应"
+    hex_data: "AA 55 55 AA 88 88 00 10 00 00 00 00 CF 10 00 05 00 00 0D EE"

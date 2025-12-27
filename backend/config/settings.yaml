@@ -1,0 +1,12 @@
+communication:
+  type: network
+  serial:
+    port: COM1
+    baud_rate: 115200
+  network:
+    ip: 192.168.1.100
+    port: 5000
+test:
+  ping_count: 4
+  ping_timeout: 1.0
+  command_interval: 0.5

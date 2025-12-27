@@ -1,10 +1,10 @@
 {
   "project_name": "SLT_GUI",
-  "total_hours": 0,
-  "total_minutes": 0,
+  "total_hours": 1,
+  "total_minutes": 23,
   "is_running": false,
-  "start_time": 1766506206.216701,
-  "start_datetime": "2025-12-24 00:10:06",
+  "start_time": 1766806655.5737376,
+  "start_datetime": "2025-12-27 11:37:35",
   "daily_records": {
     "2025-12-24": {
       "date": "2025-12-24",
@@ -19,8 +19,22 @@
           "minutes": 0
         }
       ]
+    },
+    "2025-12-27": {
+      "date": "2025-12-27",
+      "hours": 1,
+      "minutes": 23,
+      "sessions": [
+        {
+          "start_time": "2025-12-27 11:37:35",
+          "end_time": "2025-12-27 13:01:22",
+          "duration": "1:23:47",
+          "hours": 1,
+          "minutes": 23
+        }
+      ]
     }
   },
-  "end_time": "2025-12-24 00:10:34",
-  "last_session_duration": "0:00:28"
+  "end_time": "2025-12-27 13:01:22",
+  "last_session_duration": "1:23:47"
 }
